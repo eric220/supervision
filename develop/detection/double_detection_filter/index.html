@@ -22,7 +22,7 @@
       
       
       <link rel="icon" href="../../assets/supervision-lenny.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.34">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.40">
     
     
       
@@ -30,7 +30,7 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.35f28582.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.8c3ca2c6.min.css">
       
         
         <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
@@ -817,6 +817,24 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#supervision.detection.overlap_filter.box_non_max_suppression(predictions)" class="md-nav__link">
+    <span class="md-ellipsis">
+      <code class="doc-symbol doc-symbol-toc doc-symbol-parameter"></code>&nbsp;predictions
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#supervision.detection.overlap_filter.box_non_max_suppression(iou_threshold)" class="md-nav__link">
+    <span class="md-ellipsis">
+      <code class="doc-symbol doc-symbol-toc doc-symbol-parameter"></code>&nbsp;iou_threshold
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#supervision.detection.overlap_filter.mask_non_max_suppression" class="md-nav__link">
     <span class="md-ellipsis">
       <code class="doc-symbol doc-symbol-toc doc-symbol-function"></code>&nbsp;mask_non_max_suppression
@@ -826,9 +844,63 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#supervision.detection.overlap_filter.mask_non_max_suppression(predictions)" class="md-nav__link">
+    <span class="md-ellipsis">
+      <code class="doc-symbol doc-symbol-toc doc-symbol-parameter"></code>&nbsp;predictions
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#supervision.detection.overlap_filter.mask_non_max_suppression(masks)" class="md-nav__link">
+    <span class="md-ellipsis">
+      <code class="doc-symbol doc-symbol-toc doc-symbol-parameter"></code>&nbsp;masks
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#supervision.detection.overlap_filter.mask_non_max_suppression(iou_threshold)" class="md-nav__link">
+    <span class="md-ellipsis">
+      <code class="doc-symbol doc-symbol-toc doc-symbol-parameter"></code>&nbsp;iou_threshold
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#supervision.detection.overlap_filter.mask_non_max_suppression(mask_dimension)" class="md-nav__link">
+    <span class="md-ellipsis">
+      <code class="doc-symbol doc-symbol-toc doc-symbol-parameter"></code>&nbsp;mask_dimension
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#supervision.detection.overlap_filter.box_non_max_merge" class="md-nav__link">
     <span class="md-ellipsis">
       <code class="doc-symbol doc-symbol-toc doc-symbol-function"></code>&nbsp;box_non_max_merge
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#supervision.detection.overlap_filter.box_non_max_merge(predictions)" class="md-nav__link">
+    <span class="md-ellipsis">
+      <code class="doc-symbol doc-symbol-toc doc-symbol-parameter"></code>&nbsp;predictions
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#supervision.detection.overlap_filter.box_non_max_merge(iou_threshold)" class="md-nav__link">
+    <span class="md-ellipsis">
+      <code class="doc-symbol doc-symbol-toc doc-symbol-parameter"></code>&nbsp;iou_threshold
     </span>
   </a>
   
@@ -856,6 +928,13 @@
   <span class="md-ellipsis">
     Utils
   </span>
+  
+    
+  
+  
+    <span class="md-status md-status--new"></span>
+  
+
   
 
       </a>
@@ -944,13 +1023,6 @@
   <span class="md-ellipsis">
     Annotators
   </span>
-  
-    
-  
-  
-    <span class="md-status md-status--new"></span>
-  
-
   
 
       </a>
@@ -1086,6 +1158,13 @@
     Line Zone
   </span>
   
+    
+  
+  
+    <span class="md-status md-status--new"></span>
+  
+
+  
 
       </a>
     </li>
@@ -1106,6 +1185,13 @@
   <span class="md-ellipsis">
     Polygon Zone
   </span>
+  
+    
+  
+  
+    <span class="md-status md-status--new"></span>
+  
+
   
 
       </a>
@@ -1374,6 +1460,34 @@
   
   
     <li class="md-nav__item">
+      <a href="../../metrics/f1_score/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    F1 Score
+  </span>
+  
+    
+  
+  
+    <span class="md-status md-status--new"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../metrics/" class="md-nav__link">
         
   
@@ -1448,13 +1562,6 @@
     Video
   </span>
   
-    
-  
-  
-    <span class="md-status md-status--new"></span>
-  
-
-  
 
       </a>
     </li>
@@ -1475,13 +1582,6 @@
   <span class="md-ellipsis">
     Image
   </span>
-  
-    
-  
-  
-    <span class="md-status md-status--new"></span>
-  
-
   
 
       </a>
@@ -1918,6 +2018,24 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#supervision.detection.overlap_filter.box_non_max_suppression(predictions)" class="md-nav__link">
+    <span class="md-ellipsis">
+      <code class="doc-symbol doc-symbol-toc doc-symbol-parameter"></code>&nbsp;predictions
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#supervision.detection.overlap_filter.box_non_max_suppression(iou_threshold)" class="md-nav__link">
+    <span class="md-ellipsis">
+      <code class="doc-symbol doc-symbol-toc doc-symbol-parameter"></code>&nbsp;iou_threshold
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#supervision.detection.overlap_filter.mask_non_max_suppression" class="md-nav__link">
     <span class="md-ellipsis">
       <code class="doc-symbol doc-symbol-toc doc-symbol-function"></code>&nbsp;mask_non_max_suppression
@@ -1927,9 +2045,63 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#supervision.detection.overlap_filter.mask_non_max_suppression(predictions)" class="md-nav__link">
+    <span class="md-ellipsis">
+      <code class="doc-symbol doc-symbol-toc doc-symbol-parameter"></code>&nbsp;predictions
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#supervision.detection.overlap_filter.mask_non_max_suppression(masks)" class="md-nav__link">
+    <span class="md-ellipsis">
+      <code class="doc-symbol doc-symbol-toc doc-symbol-parameter"></code>&nbsp;masks
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#supervision.detection.overlap_filter.mask_non_max_suppression(iou_threshold)" class="md-nav__link">
+    <span class="md-ellipsis">
+      <code class="doc-symbol doc-symbol-toc doc-symbol-parameter"></code>&nbsp;iou_threshold
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#supervision.detection.overlap_filter.mask_non_max_suppression(mask_dimension)" class="md-nav__link">
+    <span class="md-ellipsis">
+      <code class="doc-symbol doc-symbol-toc doc-symbol-parameter"></code>&nbsp;mask_dimension
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#supervision.detection.overlap_filter.box_non_max_merge" class="md-nav__link">
     <span class="md-ellipsis">
       <code class="doc-symbol doc-symbol-toc doc-symbol-function"></code>&nbsp;box_non_max_merge
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#supervision.detection.overlap_filter.box_non_max_merge(predictions)" class="md-nav__link">
+    <span class="md-ellipsis">
+      <code class="doc-symbol doc-symbol-toc doc-symbol-parameter"></code>&nbsp;predictions
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#supervision.detection.overlap_filter.box_non_max_merge(iou_threshold)" class="md-nav__link">
+    <span class="md-ellipsis">
+      <code class="doc-symbol doc-symbol-toc doc-symbol-parameter"></code>&nbsp;iou_threshold
     </span>
   </a>
   
@@ -1974,7 +2146,7 @@
 <a id="supervision.detection.overlap_filter.OverlapFilter"></a>
     <div class="doc doc-contents first">
             <p class="doc doc-class-bases">
-              Bases: <code><span title="enum.Enum">Enum</span></code></p>
+              Bases: <code>Enum</code></p>
 
 
         <p>Enum specifying the strategy for filtering overlapping detections.</p>
@@ -2026,6 +2198,11 @@ into a single detection.</p>
           </tr>
       </tbody>
     </table>
+
+
+
+
+
 
               <details class="quote">
                 <summary>Source code in <code>supervision/detection/overlap_filter.py</code></summary>
@@ -2149,9 +2326,11 @@ into a single detection.</p>
       </thead>
       <tbody>
           <tr class="doc-section-item">
-            <td><code>predictions</code></td>
             <td>
-                  <code><span title="numpy.ndarray">ndarray</span></code>
+<h2 id="supervision.detection.overlap_filter.box_non_max_suppression(predictions)" class="doc doc-heading doc-heading-parameter">                  <code>predictions</code>
+<a href="#supervision.detection.overlap_filter.box_non_max_suppression(predictions)" class="headerlink" title="Permanent link">&para;</a></h2>            </td>
+            <td>
+                  <code>ndarray</code>
             </td>
             <td>
               <div class="doc-md-description">
@@ -2165,7 +2344,9 @@ or <code>(x_min, y_min, x_max, y_max, score, class)</code>.</p>
             </td>
           </tr>
           <tr class="doc-section-item">
-            <td><code>iou_threshold</code></td>
+            <td>
+<h2 id="supervision.detection.overlap_filter.box_non_max_suppression(iou_threshold)" class="doc doc-heading doc-heading-parameter">                  <code>iou_threshold</code>
+<a href="#supervision.detection.overlap_filter.box_non_max_suppression(iou_threshold)" class="headerlink" title="Permanent link">&para;</a></h2>            </td>
             <td>
                   <code>float</code>
             </td>
@@ -2194,7 +2375,7 @@ to use for non-maximum suppression.</p>
       <tbody>
           <tr class="doc-section-item">
             <td>
-                  <code><span title="numpy.ndarray">ndarray</span></code>
+                  <code>ndarray</code>
             </td>
             <td>
               <div class="doc-md-description">
@@ -2367,9 +2548,11 @@ closed range from <code>0</code> to <code>1</code>.</p>
       </thead>
       <tbody>
           <tr class="doc-section-item">
-            <td><code>predictions</code></td>
             <td>
-                  <code><span title="numpy.ndarray">ndarray</span></code>
+<h2 id="supervision.detection.overlap_filter.mask_non_max_suppression(predictions)" class="doc doc-heading doc-heading-parameter">                  <code>predictions</code>
+<a href="#supervision.detection.overlap_filter.mask_non_max_suppression(predictions)" class="headerlink" title="Permanent link">&para;</a></h2>            </td>
+            <td>
+                  <code>ndarray</code>
             </td>
             <td>
               <div class="doc-md-description">
@@ -2384,9 +2567,11 @@ or <code>(x_min, y_min, x_max, y_max, score, class)</code>. Shape: <code>(N, 5)<
             </td>
           </tr>
           <tr class="doc-section-item">
-            <td><code>masks</code></td>
             <td>
-                  <code><span title="numpy.ndarray">ndarray</span></code>
+<h2 id="supervision.detection.overlap_filter.mask_non_max_suppression(masks)" class="doc doc-heading doc-heading-parameter">                  <code>masks</code>
+<a href="#supervision.detection.overlap_filter.mask_non_max_suppression(masks)" class="headerlink" title="Permanent link">&para;</a></h2>            </td>
+            <td>
+                  <code>ndarray</code>
             </td>
             <td>
               <div class="doc-md-description">
@@ -2400,7 +2585,9 @@ dimensions of each mask.</p>
             </td>
           </tr>
           <tr class="doc-section-item">
-            <td><code>iou_threshold</code></td>
+            <td>
+<h2 id="supervision.detection.overlap_filter.mask_non_max_suppression(iou_threshold)" class="doc doc-heading doc-heading-parameter">                  <code>iou_threshold</code>
+<a href="#supervision.detection.overlap_filter.mask_non_max_suppression(iou_threshold)" class="headerlink" title="Permanent link">&para;</a></h2>            </td>
             <td>
                   <code>float</code>
             </td>
@@ -2415,7 +2602,9 @@ to use for non-maximum suppression.</p>
             </td>
           </tr>
           <tr class="doc-section-item">
-            <td><code>mask_dimension</code></td>
+            <td>
+<h2 id="supervision.detection.overlap_filter.mask_non_max_suppression(mask_dimension)" class="doc doc-heading doc-heading-parameter">                  <code>mask_dimension</code>
+<a href="#supervision.detection.overlap_filter.mask_non_max_suppression(mask_dimension)" class="headerlink" title="Permanent link">&para;</a></h2>            </td>
             <td>
                   <code>int</code>
             </td>
@@ -2444,7 +2633,7 @@ resized before computing IOU values. Defaults to 640.</p>
       <tbody>
           <tr class="doc-section-item">
             <td>
-                  <code><span title="numpy.ndarray">ndarray</span></code>
+                  <code>ndarray</code>
             </td>
             <td>
               <div class="doc-md-description">
@@ -2472,7 +2661,8 @@ non-maximum suppression.</p>
             </td>
             <td>
               <div class="doc-md-description">
-                <p>If <code>iou_threshold</code> is not within the closed</p>
+                <p>If <code>iou_threshold</code> is not within the closed
+range from <code>0</code> to <code>1</code>.</p>
               </div>
             </td>
           </tr>
@@ -2561,7 +2751,7 @@ non-maximum suppression.</p>
 <a id="__codelineno-0-66" name="__codelineno-0-66"></a>
 <a id="__codelineno-0-67" name="__codelineno-0-67"></a><span class="sd">    Raises:</span>
 <a id="__codelineno-0-68" name="__codelineno-0-68"></a><span class="sd">        AssertionError: If `iou_threshold` is not within the closed</span>
-<a id="__codelineno-0-69" name="__codelineno-0-69"></a><span class="sd">        range from `0` to `1`.</span>
+<a id="__codelineno-0-69" name="__codelineno-0-69"></a><span class="sd">            range from `0` to `1`.</span>
 <a id="__codelineno-0-70" name="__codelineno-0-70"></a><span class="sd">    &quot;&quot;&quot;</span>
 <a id="__codelineno-0-71" name="__codelineno-0-71"></a>    <span class="k">assert</span> <span class="mi">0</span> <span class="o">&lt;=</span> <span class="n">iou_threshold</span> <span class="o">&lt;=</span> <span class="mi">1</span><span class="p">,</span> <span class="p">(</span>
 <a id="__codelineno-0-72" name="__codelineno-0-72"></a>        <span class="s2">&quot;Value of `iou_threshold` must be in the closed range from 0 to 1, &quot;</span>
@@ -2619,9 +2809,11 @@ too many overlapping bounding boxes for a given object.</p>
       </thead>
       <tbody>
           <tr class="doc-section-item">
-            <td><code>predictions</code></td>
             <td>
-                  <code><span title="numpy.typing.NDArray">NDArray</span>[<span title="numpy.float64">float64</span>]</code>
+<h2 id="supervision.detection.overlap_filter.box_non_max_merge(predictions)" class="doc doc-heading doc-heading-parameter">                  <code>predictions</code>
+<a href="#supervision.detection.overlap_filter.box_non_max_merge(predictions)" class="headerlink" title="Permanent link">&para;</a></h2>            </td>
+            <td>
+                  <code>NDArray[float64]</code>
             </td>
             <td>
               <div class="doc-md-description">
@@ -2636,7 +2828,9 @@ detections of different classes to be merged.</p>
             </td>
           </tr>
           <tr class="doc-section-item">
-            <td><code>iou_threshold</code></td>
+            <td>
+<h2 id="supervision.detection.overlap_filter.box_non_max_merge(iou_threshold)" class="doc doc-heading doc-heading-parameter">                  <code>iou_threshold</code>
+<a href="#supervision.detection.overlap_filter.box_non_max_merge(iou_threshold)" class="headerlink" title="Permanent link">&para;</a></h2>            </td>
             <td>
                   <code>float</code>
             </td>
@@ -2665,7 +2859,7 @@ to use for non-maximum suppression. Defaults to 0.5.</p>
       <tbody>
           <tr class="doc-section-item">
             <td>
-                  <code><span title="typing.List">List</span>[<span title="typing.List">List</span>[int]]</code>
+                  <code>List[List[int]]</code>
             </td>
             <td>
               <div class="doc-md-description">
@@ -3004,10 +3198,10 @@ Each group may have 1 or more elements.</p>
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tracking", "content.code.copy", "content.action.edit", "content.tooltips", "content.code.annotate", "navigation.tabs"], "search": "../../assets/javascripts/workers/search.07f07601.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tracking", "content.code.copy", "content.action.edit", "content.tooltips", "content.code.annotate", "navigation.tabs"], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.56dfad97.min.js"></script>
+      <script src="../../assets/javascripts/bundle.525ec568.min.js"></script>
       
         <script src="https://widget.kapa.ai/kapa-widget.bundle.js"></script>
       
